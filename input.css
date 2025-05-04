@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+font-family: "Montserrat", sans-serif;
+background: #fab1d0;
+background: linear-gradient(262deg, rgba(250, 177, 208, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+/* h1 {
+  margin-bottom: 10px;
+} */
+
+#status {
+  font-style: italic;
+  color: #ffffff;
+}
+
+#data {
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#block1{
+align-items: center;
+}
+.foot-type {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.normal {
+  color: green;
+}
+
+.flatfoot {
+  color: red;
+}
+
+.higharch {
+  color: orange;
+}
+
+#medical-solutions {
+  margin-top: 30px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.solution {
+  margin-top: 10px;
+  display: none;
+}
+
+.solution-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.solution-list li {
+  margin-bottom: 5px;
+}

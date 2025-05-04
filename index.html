@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="input.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+  <div id="backgroundmain" class="justify-center items-center mx-7 my-7 bg-[#9753B7] border-2 border-white rounded-2xl px-20 py-20">
+  <h1 class="font-bold text-4xl text-yellow-100">Real-time Foot Pressure Data</h1>
+  <div id="status">Connecting to WebSocket...</div>
+  <div id="data" class="bg-blue-300 text-lg rounded-lg">Waiting for data...</div>
+  <div id="block" class="bg-blue-300 text-lg rounded-lg w-2/6 px-4 mt-20">
+  <div id="foot-type" class="foot-type mt-2">Foot type: Detecting...</div>
+  </div>
+
+  <div id="medical-solutions" class="border-2 border-white rounded-2xl items-center p-2">
+    <h2 class="font-bold">Medical Solutions</h2>
+
+    <div id="flatfoot-solutions" class="solution">
+      <h3>Solutions for Flatfoot</h3>
+      <ul class="solution-list">
+        <li>Custom orthotic insoles to provide better arch support.</li>
+        <li>Physical therapy exercises to strengthen the foot muscles:-</li>
+        <ol class="exercises-list">
+          <li><b>Heel cord stretches:</b>involves gently lengthening the Achilles tendon to improve flexibility and
+            alleviate pain or tightness in the calf and heel.</li>
+          <li><b>Arch lifts: </b>trengthen the intrinsic muscles in the foot, particularly those supporting the arch, by
+            lifting the arch while keeping the toes and heel on the ground. </li>
+          <li><b>Towel curls: </b>It is done in a seating position with a towel under your involved foot while seated
+            draw
+            the towel back towards you using your toes. It is an effective and easy way to strengthen the muscles in
+            your
+            feet, particularly the plantar fascia</li>
+          <li><b>Tennis/golf ball rolls: </b>Rolling a tennis or golf ball under the foot can help to massage and
+            stretch the plantar fascia. </li>
+          <li><b>Toe raises:</b>strengthens the muscles on the front of your lower leg (shin muscles) and improves ankle
+            stability and balance.</li>
+        </ol>
+        <li>Proper footwear with good arch support and cushioning.</li>
+        <li>Surgical options for severe cases if non-invasive treatments are ineffective.</li>
+      </ul>
+      <h3> When to seek Medical assistance</h3>
+      <ul class="assistance-list">
+        <li>If you experience persistent pain, stiffness, or difficulty walking.</li>
+        <li>If you suspect you have flat feet and are experiencing symptoms.</li>
+        <li>If non-surgical treatments are not providing adequate relief.</li>
+        <li>If you have a history of foot problems or injuries. </li>
+      </ul>
+    </div>
+
+    <div id="higharch-solutions" class="solution">
+      <h3>Solutions for High Arch</h3>
+      <ul class="solution-list">
+        <li>Use of cushioning insoles to reduce foot strain and absorb shock.</li>
+        <li>Stretching exercises to prevent tightness in the foot muscles.</li>
+        <li>Wearing shoes with adequate arch support and cushioning.</li>
+        <li>Physical therapy to improve foot function and balance.</li>
+        <ol class="therapies">
+          <li><b>Balance Exercises:</b>Exercises that improve proprioception (awareness of body position) like standing
+            on one foot or using a wobble board can improve balance and stability. </li>
+          <li><b>Ankle Muscles: </b>Exercises like ankle inversions and eversions strengthen the muscles around the
+            ankle joint, improving stability and reducing the risk of sprains. </li>
+          <li><b>Arch Support:</b>Exercises like arch lifts (foot doming) can strengthen the muscles that support the
+            arch. </li>
+          <li><b>Heel Cord Stretch</b>Stretching the Achilles tendon and calf muscles can help reduce tension that can
+            pull on the plantar fascia. </li>
+        </ol>
+      </ul>
+    </div>
+
+    <div id="normalfoot-solutions" class="solution">
+      <h3>Solutions for Normal Foot</h3>
+      <ul class="solution-list">
+        <li>Maintain a healthy weight to avoid excessive pressure on the feet.</li>
+        <li>Regular foot stretches and exercises to keep the muscles flexible.</li>
+        <li>Wear shoes that support the natural arch of the foot.</li>
+        <li>Regular check-ups with a podiatrist to monitor foot health.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
